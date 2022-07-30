@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root { 
+    --primary-color: rgb(2, 118, 172);
+} /* Criando uma variável global com css */
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form imput, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cpf-gerado {
+    font-size: 2em;
+    /*color: var(--primary-color); */
+    color: rgb(66, 244, 66);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+#refresh {
+    padding: 7px;
+    cursor: pointer;
+    margin-left: 250px;
+    font: bold 20px arial, sans-serif;
+    border-style:initial;
+    border-radius: 5px;
+    background-color: rgb(96, 236, 249);
+    border-width: 4px;
+}
+
+#refresh:hover {
+    background: rgb(79, 240, 39);
+}
