@@ -10,7 +10,7 @@ const path = require('path');
 // fs.stat retorna os status de um dir ou arquivo
 
 /* 
-O seguinte código permite, a partir de uma pasta raiz, caminhar por várias pastas filhas afim de encontrar os arquivos .css
+O seguinte código permite, a partir de uma pasta raiz, caminhar por várias pastas filhas a fim de encontrar os arquivos .css
 Para alcançar esse objetivo foram utilizadas duas funções assíncronas em recursão mútua.
 */
 
